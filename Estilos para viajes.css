@@ -1,0 +1,58 @@
+#contenido{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: black
+}
+
+.nav{
+    border-bottom: 5px solid yellow;
+    background: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px
+}
+
+section{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cuerpo{
+    margin-top: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.sitios{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+    color: black;
+}
+
+.articulos{
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+}

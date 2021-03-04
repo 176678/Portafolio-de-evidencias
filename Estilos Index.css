@@ -1,0 +1,55 @@
+#contenido{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+header{
+    background: yellow;
+    font-size: 25px;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: black
+}
+
+.nav{
+    border-bottom: 5px solid yellow;
+    background: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    background: red;
+    color: white;
+    text-align: center;
+    width: 450px;
+    height: 30px;
+}
+
+.articulos{
+    padding: 50px;
+}
+
+footer{
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
