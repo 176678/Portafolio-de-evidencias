@@ -12,7 +12,7 @@ table{
 }
 
 .nav{
-    border-bottom: 5px solid yellow;
+    border-bottom: 10px solid yellow;
     background: black;
 }
 
@@ -22,7 +22,12 @@ a{
 }
 
 p{
+    text-align: justify;
     font-size: 20px
+}
+
+.di{
+    color: blue;
 }
 
 section{
@@ -30,16 +35,36 @@ section{
     text-align: center;
 }
 
-.cuerpo{
-    margin-top: 100px;
-    margin-left: 125px;
-    margin-right: 125px;
+.seccion {
+    padding: 75px;
+}
+
+.tpue{
+    text-align: justify;
+    margin-bottom: 50px;
+    border-bottom: 5px solid red;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    background: yellow;
+    border-bottom: 5px solid red;
+}
+
+.article{
+    padding: 100px;
+    width: 750px;
+}
+
+.espacio{
+    margin-right: 75px;
 }
 
 .sitios{
     margin-top: 50px;
     margin-bottom: 50px;
-    background: white;
+    background: lightgray;
     color: black;
 }
 
@@ -56,3 +81,4 @@ footer{
     background: black;
     color: white;
 }
+
