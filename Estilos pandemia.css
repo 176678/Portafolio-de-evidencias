@@ -1,0 +1,185 @@
+#contenido{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.nav{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    background-color: #002227;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 5px solid green;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a:hover{
+    background-color: green;
+}
+
+.informacion{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 750px;
+    font-size: 20px;
+    padding: 75px;
+}
+
+a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+    text-align: center;
+}
+
+.lateral{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: lightgray;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.info{
+    text-align: center;
+    width: 75%;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    float: right;
+    margin-bottom: 5px;
+    line-height: 1px
+}
+
+.figura{
+    text-align: center;
+    background-color: white;
+    float: right;
+    width: 75%;
+    height: 475px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+iframe{
+    text-align: center;
+    width: 80%;
+    height: 550px;
+}
+
+.enlace{
+    font-size: 20px;
+    padding: 75px;
+    width: 100%;
+}
+
+footer{
+    font-size: 17px;
+    text-align: center;
+    float: bottom;
+    width: 100%;
+    background: #011316;
+    color: white;
+    height: 50px;
+    line-height: 50px
+}
+
+.registro{
+    background-color: #011316;
+    width: 550px;
+    padding: 75px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+
+.registro h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.control{
+    width: 377px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(34, 77, 78);
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.registro .boton{
+    color: white;
+    width: 100%;
+    background: #024b05;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.galeria{
+    width: 100%;
+    padding: 75px
+}
+
+.navv{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    background-color: #002227;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 5px solid red;
+}
+
+.navv li a{
+    text-decoration: none;
+    color: white;
+    padding: 31px;
+    display: list-item;
+}
+
+.navv li{
+    display: list-item;
+}
+
+.navv li a:hover{
+    background-color: red;
+}
