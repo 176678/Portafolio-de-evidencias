@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Caluladora</title>
+    <meta charset="uft-8"/>
+    <meta name="description" content="Ejemplo de HTML5"/>
+    <meta name="Keywords" content="HTML5, CSS3, Javascript"/>
+</head>
+<body onload="init();">
+
+    <ul class="nav">
+        <li>
+            <a href="Pruebas.html">Inicio</a>
+        </li>
+        <li>
+            <a href="form.html">Contacto</a>
+        </li>
+    </ul>
+
+    <div class="sec1">
+        <table class="calcu">
+            <tr>
+                <td colspan="4"><section id="resultado"></section></td>
+            </tr>
+            <tr>
+                <td><button id="siete">7</button></td>
+                <td><button id="ocho">8</button></td>
+                <td><button id="nueve">9</button></td>
+                <td><button class="opr" id="sum">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="cuatro">4</button></td>
+                <td><button id="cinco">5</button></td>
+                <td><button id="seis">6</button></td>
+                <td><button class="opr" id="mul">x</button></td>
+            </tr>
+            <tr>
+                <td><button id="uno">1</button></td>
+                <td><button id="dos">2</button></td>
+                <td><button id="tres">3</button></td>
+                <td><button class="opr" id="resta">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="ac" id="reset">ac</button></td>
+                <td><button id="cero">0</button></td>
+                <td><button class="opr" id="div">/</button></td>
+                <td><button class="i" id="igual">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

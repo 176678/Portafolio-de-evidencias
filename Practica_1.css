@@ -1,0 +1,38 @@
+.sec1{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec2{
+    width: 260px;
+    float: left;
+}
+
+.sec3{
+    width: 700px;
+    float: right;
+}
+
+.col1{
+    text-align: justify;
+    width: 30%;
+    float: left;
+    list-style: none;
+    margin-right:  35px;
+ }
+
+ .col2{
+    text-align: justify;
+    width: 30%;
+    float: left;
+    list-style: none;
+    margin-right: 35px;
+ }
+
+ .col3{
+    text-align: justify;
+    width: 30%;
+    float: left;
+    list-style: none;
+ }
