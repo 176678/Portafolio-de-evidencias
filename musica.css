@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(227deg, rgba(0,0,255,.8), rgb(255,0,0,0) 70%),
+                linear-gradient(127deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70%),
+                linear-gradient(336deg, rgba(23, 104, 23, 0.8), rgba(0,255,0,0) 70%);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+    width: 7px;
+}
+
+.contenido{
+    padding-top: 50px;
+}
+
+.inicio{
+    transform: rotate(-25deg);
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+
+.tit_musica{
+    font-size: 23px;
+    height: 70px;
+    letter-spacing: 25px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0.842);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 255, 242);
+    outline: 5px solid white;
+}
+
+.cuadro{
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    box-shadow: 12px 10px 10px black;
+    width: 600px;
+    height: 155px;
+    margin-bottom: 50px;
+    border-left: 4px solid rgb(0, 255, 242);
+}
+
+.content_cuadro{
+    padding-top: 10px;
+    padding-bottom: 10x;
+}
+
+th{
+    font-size: 17px;
+    line-height: 35px;
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.822);
+    color: rgb(0, 255, 242);
+    font-family: monospace;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover{
+    color: yellow;
+}
+
+.letra{
+    color: hsla(0, 100%, 99%, 0.795);
+}
+
+.imagen{
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.celda{
+    border-right: 1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.celda2{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer{
+    text-align: right;
+    line-height: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    font-size: 20px;
+}
+
+.letra_footer{
+    margin-right: 20px;
+}

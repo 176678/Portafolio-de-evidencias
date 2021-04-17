@@ -1,0 +1,17 @@
+#contenido{
+    width: 1000px;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    float: left;
+    width: 80%;
+}
+
+aside{
+    float: left;
+    width: 20%;
+}

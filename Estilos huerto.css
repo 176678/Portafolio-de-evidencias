@@ -1,0 +1,370 @@
+*{
+    margin: auto;
+}
+
+.nav{
+    text-transform: uppercase;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.nav li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+}
+
+.nav li{
+    margin-left: 5px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+}
+
+.li_nav a:hover{
+    background-color: rgb(17, 109, 81);
+    color: white;
+}
+
+.verde{
+    padding: 10px;
+    border-radius: 10%;
+    background-image: url(hojas.jpg);
+}
+
+.nav2{
+    text-align: center;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+.nav2 li b{
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.nav2 li{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.reg{
+    background-color: crimson;
+    border-radius: 10%;
+    font-family: monospace;
+    font-size: 17px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+
+#contenido
+{
+    width: 55%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.div1{
+    margin-bottom: 40px;
+}
+
+.div2{
+    float: left;
+    width: 30%;
+    height: 320px;
+}
+
+.div3{
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 320px;
+}
+
+.div4{
+    float: right;
+    width: 30%;
+    height: 320px;
+}
+
+footer{
+    border-top: 1px solid gray;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    font-size: 17px;
+    color: black;
+}
+
+.recetas{
+    width: 85%;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tit1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: monospace;
+    color: crimson;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 37px;
+}
+
+.indice{
+    float: left;
+    width: 30%;
+}
+
+.receta{
+    border-left: 2px dotted black;
+    padding-left: 40px;
+    float: right;
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.tit_receta{
+    text-align: center;
+    color: rgb(68, 13, 13);
+    border-bottom: 2px dotted gray;
+    font-family: monospace;
+    height: 45px;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(2, 37, 17);
+    font-size: 10px;
+}
+
+.li_re{
+    list-style: none;
+    border-left: 5px solid crimson;
+    padding-left: 10px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    color: black;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.li_re:hover{
+    background-color: rgb(2, 37, 17);
+}
+
+a:hover{
+    color: white;
+}
+
+.ingredientes{
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 35%;
+    float: left;
+    font-size: 18px;
+}
+
+.tit{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(2, 37, 17);
+}
+
+.ingr{
+    list-style-image: url(lista_circulo.png);
+    color: black;
+    margin-bottom: 13px;
+}
+
+.preparacion{
+    background-image: url(paper.png);
+    border-radius: 70px;
+    float: left;
+    width: 440px;
+    height: 640px;
+    color: black;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tit_2{
+    text-transform: uppercase;
+    color: rgb(68, 13, 13);
+    font-size: 20px;
+}
+
+.content_pre{
+    color: rgb(51, 50, 6);
+    margin: 35px;
+}
+
+.prep{
+    margin-bottom: 17px;
+    list-style: decimal;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.tips{
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.H1{
+    color: rgb(2, 37, 2);
+    width: 80%;
+    text-align: center;
+    height: 50px;
+    border-bottom: 2px dotted gray;
+    margin-bottom: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tip{
+    width: 320px;
+    height: 400px;
+    float: left;
+    background-image: url(hoja.jpg);
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.content_tip{
+    padding: 22px;
+}
+
+.tit_tip{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.li_tip{
+    line-height: 20px;
+    font-size: 18px;
+    color: rgb(2, 37, 17);
+    margin-bottom: 15px;
+    list-style-image: url(lista_circulo.png);
+}
+
+.content_riego{
+    width: 70%;
+    padding: 50px;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1_riego{
+    color: rgb(2, 37, 2);
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.tit_riego{
+    padding-left: 10px;
+    background-color: rgb(8, 77, 50);
+    border-radius: 25px;
+    color: yellow;
+    margin-bottom: 25px;
+    font-size: 27px;
+}
+
+.lis{
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.str{
+    color: rgb(168, 89, 14);
+}
+
+.li_pri{
+    list-style-image: url(primavera.png);
+}
+
+.li_ver{
+    list-style-image: url(verano.png);
+}
+
+.li_oto{
+    list-style-image: url(otono.png);
+}
+
+.li_inv{
+    list-style-image: url(invierno.png);
+}
+
+.li_lec{
+    list-style-image: url(lechuga.png);
+}
+
+.li_tom{
+    list-style-image: url(Tomate.png);
+}
+
+.li_ceb{
+    list-style-image: url(cebolla.png);
+}
+
+.li_hor{
+    list-style-image: url(hortaliza.png);
+}
+
+.Compost{
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    padding: 50px;
+    width: 70%;
+    height: 2500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tit_compost{
+    text-align: center;
+    color: rgb(2, 37, 2);
+    margin-bottom: 70px;
+}
+
+.lis_compost{
+    margin-bottom: 8px;
+    list-style-image: url(lista_circulo.png);
+}
+
+.subt_compost{
+    font-size: 20px;
+    color: rgb(53, 6, 6);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.section_cal{
+    width: 70%;
+}

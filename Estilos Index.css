@@ -1,55 +1,73 @@
+*{
+    margin: auto;
+}
+
 #contenido{
-    width: 1250px;
-    margin: 0px auto;
+    margin: 0;
 }
 
 header{
-    background: yellow;
-    font-size: 25px;
-    background-size: cover;
-    background-position: center;
-    color: black;
-    height: 75px;
+    background-color: rgb(18, 7, 48);
     width: 100%;
-    text-align: center;
-    line-height: 75px;
+    height: 80px;
 }
 
-table{
+.alumno{
+    font-family: monospace;
+    margin-top: 180px;
+    margin-bottom: 162px;
     text-align: center;
-    width: 100%;
-    padding: 10px;
-    font-size: 20px;
-    color: black
+    font-size: 40px;
 }
 
 .nav{
-    border-bottom: 5px solid yellow;
-    background: black;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+    background-color: rgb(182, 120, 5);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-top: 2px solid white;
 }
 
-a{
-    color: white;
+.nav li a{
     text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a:hover{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    border-radius: 25px;
 }
 
 h2{
-    background: red;
-    color: white;
+    padding-top: 70px;
+    border-bottom: 5px solid red;
+    width: 435px;
+    height: 230px;
+    color: black;
     text-align: center;
+    margin-top: 50px;
     width: 450px;
     height: 30px;
 }
 
-.articulos{
-    padding: 50px;
-}
-
 footer{
-    font-size: 17px;
-    padding: 10px;
+    background-color: black;
     text-align: center;
-    background: black;
+    width: 100%;
+    height: 51px;
+    display: inline-block;
+    font-size: 17px;
     color: white;
 }
 
