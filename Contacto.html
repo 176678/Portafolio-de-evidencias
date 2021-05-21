@@ -1,35 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="Olimpicos.css">
     <title>Contacto</title>
     <meta charset="uft-8"/>
     <meta name="description" content="Ejemplo de HTML5"/>
     <meta name="Keywords" content="HTML5, CSS3, Javascript"/>
+
+    <link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/boots_vacunas.css">
+    <link rel="stylesheet" href="css/Style_vacunas.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="box-shadow: 0px 0px 10px 10px rgb(92, 91, 91); background: rgb(34, 34, 65); border-bottom: 2px solid yellow;">
+		<div class="container-fluid" style="width: 85%;">
+		  <a class="navbar-brand" href="#">LOGO</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" aria-current="page" href="vacunas.html">Inicio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="Noticias.html">Fake News</a>
+			  </li>
+              <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Tipos de vacunas
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="Pfizer.html"><strong>Pfizer</strong></a></li>
+				  <li><a class="dropdown-item" href="Moderna.html"><strong>Moderna</strong></a></li>
+                  <li><a class="dropdown-item" href="Sputnik V.html"><strong>Sputnik V</strong></a></li>
+				</ul>
+			  </li>
+        <li class="nav-item">
+				<a class="nav-link" href="Contacto.html">Contacto</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
 
-    <header>
-        <a href="index.html"><img class="Portafolio" src="Home_3.png"></a>
-        <img src="LOGO.png" class="jjoo_logo">
-        <img class="Logo" src="TOKYO 2020.png">
-        <nav>
-            <ul>
-                <li class="nav"><a class="a" href="Juegos Olimpicos.html">Inicio</a></li>
-                <li class="nav"><a class="a" href="Deportes.html">Deportes</a></li>
-                <li class="nav"><a class="a" href="Galeria.html">Galería</a></li>
-                <li class="nav"><a class="a" href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="cuerpo">
+      <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationServer01">Primer nombre</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Apellidos</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">Correo</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              </div>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">Ciudad</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer04">Estado</label>
+            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </form>
+    </div>
 
-    <section class="registro">
-        <h1>Formulario de registro</h1>
-        <input class="control" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
-        <input class="control" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
-        <input class="control" type="password" name="contraseña" id="contraeña" placeholder="Ingrese su contraseña">
-        <input class="boton" type="submit" value="Registrar">
-        <p><a href="#">¿Ya tengo cuenta?</a></p>
-    </section>
+    <section class="">
+		  <div class="text-center p-3" style="border-top: 3px solid yellow; background-color: rgb(34, 34, 65); color: white;">
+			© 2021 Vacunas
+		  </div>
+		</footer>
+	  </section>
 </body>
 </html>
