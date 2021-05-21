@@ -1,0 +1,62 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.cuerpo{
+    width: 75%;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-bottom: 4px solid gray;
+}
+
+.cont_exp{
+    width: 75%;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-bottom: 4px solid gray;
+}
+
+.carrusel{
+    width: 75%;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.contenedor_columnas{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img_circle{
+    border-radius: 100%;
+}
+
+.tex_col{
+    margin-top: 25px;
+}
+
+.regt{
+    width: 150px;
+    color: white;
+    text-align: center;
+    background: red;
+}

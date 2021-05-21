@@ -1,0 +1,58 @@
+.clearfix{
+    clear: both;
+}
+
+.cuerpo{
+    width: 85%;
+    padding: 100px;
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.carrusel{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor_columnas{
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img_circle{
+    border-radius: 100%;
+}
+
+.tex_col{
+    margin-top: 25px;
+}
+
+.regt{
+    width: 150px;
+    color: orange;
+    text-align: center;
+    background: black;
+    margin-bottom: 80px;
+}
+
+.a_ref{
+    color: white;
+}
+
+.a_ref:hover{
+    color: yellow;
+}
+
+.celda_noticia{
+    padding-left: 50px;
+}
